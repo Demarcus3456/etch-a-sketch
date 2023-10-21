@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 482px;
+    height: 514px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    border: 1px solid black;
+    width: 30px;
+    height: 32px;
+}
+
+/* Grid Settings */
+.grid-dropdown {
+    border: 5px solid red;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
